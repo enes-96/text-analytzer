@@ -1,22 +1,25 @@
 
-const Counters = () => {
+const Counters = ({ characters }) => {
+    const characterCount = characters.trim().length
+    const wordCount = characters.trim().split(/\s+/).filter((word) => word !== "").length;
+    const sentenceCount = characters.split(/[.!?]+/).filter((sentence) => sentence !== "").length;
 
     return (
         <div className="bg-white text-xl max-w-5xl p-6 font-bold my-4 rounded-xl mx-auto flex justify-between">
             <div className="flex flex-col items-center">
-                <p className="text-gray-400">Words</p>
-                <p>0</p>
+                <p className="text-gray-400">Characters</p>
+                <p>{characterCount}</p>
             </div>
             <div className="flex flex-col items-center">
-                <p className="text-gray-400">Characters</p>
-                <p>0</p>
+                <p className="text-gray-400">Words</p>
+                <p>{wordCount}</p>
             </div>
             <div className="flex flex-col items-center">
                 <p className="text-gray-400">Sentences</p>
-                <p>0</p>
+                <p>{sentenceCount}</p>
             </div>
         </div>
-    );
-};
+    )
+}
 
-export default Counters;
+export default Counters
