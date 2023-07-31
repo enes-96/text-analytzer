@@ -1,9 +1,18 @@
-const App = ()=>{
-  return(
-    <div>
-      <h1 className="text-3xl">i am app</h1>
-    </div>
-  )
-}
+import Header from "./components/Header";
+import Counters from "./components/Counters";
+import Textfield from "./components/Textfield";
+import Analyzer from "./components/Analyzer";
 
-export default App
+const App = () => {
+
+  return (
+    <div className="bg-gray-200 h-screen">
+      <Header />
+      <Counters />
+      <Textfield />
+      <Analyzer />
+    </div>
+  );
+};
+
+export default App;
