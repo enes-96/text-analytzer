@@ -6,13 +6,13 @@ Text Analyzer with React is a simple web application that allows users to analyz
 
 ## Demo
 
-You can try out the live demo of the Text Analyzer [here](https://your-demo-link.com).
+You can try out the live demo of the Text Analyzer [here](https://enes-96-text-analyzer.netlify.app/).
 
 ## Installation
 
 To run the Text Analyzer locally on your machine, follow these steps:
 
-1. Clone this repository
+1. Clone this repository 
 2. Navigate to the project directory
 3. Install dependencies: `npm install`
 4. Start the development server: `npm run dev`
