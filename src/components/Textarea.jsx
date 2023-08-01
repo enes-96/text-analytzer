@@ -10,4 +10,7 @@ const Textarea = ({ text, changeFuntion }) => {
         </div>
     )
 }
+
+
+
 export default Textarea

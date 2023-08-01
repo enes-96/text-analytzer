@@ -1,4 +1,3 @@
-
 const Counters = ({ characters }) => {
     const characterCount = characters.trim().length
     const wordCount = characters.trim().split(/\s+/).filter((word) => word !== "").length;

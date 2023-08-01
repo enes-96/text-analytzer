@@ -1,8 +1,6 @@
-
 const Analyzer = ({ text }) => {
     const wordCount = text.trim().split(/\s+/).filter((word) => word !== "").length;
     const timeCount = Math.round((wordCount / 200) * 1) / 1;
-
 
     const findLongestWord = (text) => {
         const words = text.trim().split(/\s+/).filter((word) => word !== "")
@@ -27,5 +25,8 @@ const Analyzer = ({ text }) => {
         </div>
     )
 }
+
+
+
 
 export default Analyzer
