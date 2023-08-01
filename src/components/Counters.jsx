@@ -1,3 +1,6 @@
+import PropTypes from "prop-types";
+
+
 const Counters = ({ characters }) => {
     const characterCount = characters.trim().length
     const wordCount = characters.trim().split(/\s+/).filter((word) => word !== "").length;
@@ -19,6 +22,11 @@ const Counters = ({ characters }) => {
             </div>
         </div>
     )
+}
+
+
+Counters.propTypes = {
+    characters: PropTypes.string.isRequired,
 }
 
 export default Counters

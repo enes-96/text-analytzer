@@ -12,7 +12,7 @@ const App = () => {
     <div className="bg-gray-200 h-screen">
       <Header />
       <Counters characters={text} />
-      <Textarea changeFuntion={handleTextChange} text={text} />
+      <Textarea changeFunction={handleTextChange} text={text} />
       <Analyzer text={text} />
     </div>
   );
