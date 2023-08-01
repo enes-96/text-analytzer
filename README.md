@@ -1,8 +1,29 @@
-# React + Vite
+# Text Analyzer with React and Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Text Analyzer with React is a simple web application that allows users to analyze text input and provides statistics about the inputted text. The analyzer can count the number of words, characters and paragraphs in the provided text.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
+
+You can try out the live demo of the Text Analyzer [here](https://your-demo-link.com).
+
+## Installation
+
+To run the Text Analyzer locally on your machine, follow these steps:
+
+1. Clone this repository
+2. Navigate to the project directory
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev`
+5. Open your browser and visit: `http://localhost:3000`
+
+
+## Technologies Used
+
+- React
+- JavaScript
+- Vite
+- Tailwind
+
+
