@@ -19,7 +19,7 @@ const Analyzer = ({ text }) => {
                 <p className="text-gray-400">Average Reading Time: </p>
                 <p>{timeCount < 1 ? " < 1 min" : `~ ${timeCount} min`}</p>
             </div>
-            <div className="flex gap-2 items-center">
+            <div className=" w-1/2 flex gap-2 items-center overflow-auto">
                 <p className="text-gray-400">Longest Word:</p>
                 <p>{longestWord}</p>
             </div>

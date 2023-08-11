@@ -11,10 +11,13 @@ const App = () => {
   return (
     <div className="bg-gray-200 h-screen">
       <Header />
-      <Counters characters={text} />
-      <Textarea changeFunction={handleTextChange} text={text} />
-      <Analyzer text={text} />
+      <div className="p-10">
+        <Counters characters={text} />
+        <Textarea changeFunction={handleTextChange} text={text} />
+        <Analyzer text={text} />
+      </div>
     </div>
+
   );
 };
 
